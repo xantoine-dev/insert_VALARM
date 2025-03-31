@@ -40,7 +40,7 @@ def add_valarm_to_ics(file_path):
         print(f"No change: {file_path}")
 
 # Directory to scan
-directory = directory = r"~/dir"  # Change to your directory path
+directory = r"~/dir"  # Change to your directory path
 
 for filename in os.listdir(directory):
     if filename.endswith(".ics"):
